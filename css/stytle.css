@@ -1,0 +1,205 @@
+body {
+    margin: 0px;
+}
+
+.bigcontainer {
+    display: flex;
+    flex-direction: column;
+
+}
+.container1 {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+
+}
+.caja1{
+
+    margin-left: 15px;
+    
+}
+img {
+    width: 240px;
+    /* Ajusta la anchura del logo */
+    height: 128px;
+    /* Mantiene la proporción del logo */
+
+}
+
+.caja2{
+    
+    margin: auto;
+    width: 74%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    
+}
+.box1 {
+     width: 100%;
+    height: 135px;
+    font-family: 'quicksand';
+    align-content: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.box1 a{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    width: 190px;
+    height: 61px;
+    color: white;
+    background-color: #B8084A;
+    border-radius: 40px 40px 40px 40px;
+
+}
+
+.caja3{
+  
+    display: flex;
+    background-image: url(../img/png-clipart-computer-icons-web-search-engine-search-magnifying-glass-angle-zooming-user-interface.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    border-radius: 60%;
+    background-color: #b0b3b6; /* Color de fondo */
+    align-content: center;
+    justify-content: center;
+    margin:auto;
+
+
+}
+
+
+
+
+
+
+
+
+
+.imagen {
+    background-image: url(../img/CCB-Evergreen-1920x710-1-e1735851753986.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    margin-top: -5px;
+
+}
+
+.head {
+
+    display: flex;
+
+}
+
+h1 {
+    font-family: nunito;
+    font-size: 3.5em;
+    width: 39%;
+    margin-top: -510px;
+    margin-left: 2%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px -4px 3px rgba(0, 0, 0, 0.9);
+
+
+
+}
+
+.donate {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    font-family: 'quicksand';
+    background: #B8084A;
+    width: 310px;
+
+    border-radius: 40px 40px 40px 40px;
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin-top: -270px;
+    margin-left: 7%;
+    text-align: center;
+
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+/* caja 3 
+.main{
+    border:1px black solid;
+    width: 150px;
+    height: 150px;
+    display:blocks;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2{
+    width: 1496px;
+    height: 250px;      
+}
+.container2 img{
+     width: 100%; 
+    
+     height: auto;
+     position: relative;
+    
+}
+.overlay { 
+    bottom: 10%; 
+    transform: translate(-10%, -10%); 
+ } 
+     
+.overlay img {
+    border: 1px black solid;
+    top:10px;
+    right: 10px; 
+    width: 400px; 
+    height:auto;
+    padding-top: 35px;
+    margin-top: 50px;
+}
+h1{
+    color: white;
+    position: absolute;
+}
+p{
+    color: white;
+    position: absolute;
+}
+.donate{
+    color: white;
+ 
+} 
+*/
